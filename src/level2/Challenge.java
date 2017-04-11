@@ -16,7 +16,15 @@ public class Challenge extends Head {
 	}
 
 	public void initialize() {
-
+driveDirect(1000, 1000);
+sleep(1500);
+driveDirect(460, 1000);
+sleep(500);
+driveDirect(1000, 1000);
+sleep(2000);
+driveDirect(1000, 500);
+sleep(500);
+driveDirect(100, 100);
 	}
 
 	public void loop() {
